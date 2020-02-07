@@ -23,12 +23,12 @@ struct Employee1
 int main()
 {
     Employee1 emp;
-    emp.Name = "Landon";
+    emp.Name = "Landon, ";
     emp.DivisionNo = 3;
-    emp.address.City = "Yorbalinda";
+    emp.address.City = "Yorbalinda, ";
     emp.address.State = "California";
 
-    cout << "Landon, " << "3, " << "Yorbalinda, California";
+    cout << emp.Name << emp.DivisionNo << ", " << emp.address.City << emp.address.State << endl;
 }
 
 
